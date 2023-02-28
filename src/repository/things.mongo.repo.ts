@@ -5,7 +5,7 @@ import { ThingModel } from './things.mongo.model.js';
 import createDebug from 'debug';
 const debug = createDebug('w6:app');
 
-export class ThingsMongooseRepo implements Repo<Thing> {
+export class ThingsMongoRepo implements Repo<Thing> {
   constructor() {
     debug('Instantiate');
   }
